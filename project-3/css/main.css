@@ -1,0 +1,302 @@
+/***********************
+General
+***********************/
+
+  #wrapper {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 5%;
+  }
+
+
+/*** Images ***/
+  .pic {
+   width: 100%;
+  }
+
+  .pic-mobile {
+    min-width: 128px;
+    max-width: 128px;
+  }
+
+  img {
+    max-width: 100%;
+  }
+   /*home page*/
+    .opening-text {
+      position: relative;
+      top: -33em;
+    }
+  
+    @media screen and (max-width: 480px) {
+      #cal-wide {
+        display: none;
+      }
+    }
+    
+    #cal-wide,
+    #cal-mobile {
+      opacity: 0.4;
+      filter: alpha(opacity=40);
+      margin-bottom: 0.5em;
+    }
+
+/*** Text ***/
+  h1, h2 {
+
+    font-size: 1.75em;
+    font-weight: normal;
+  }
+  
+  h1 {
+    font-family: 'Orbitron', sans-serif;
+  }
+  
+  h2 {
+    font-family: 'Exo', sans-serif;
+  }
+
+  /*home page*/
+    .opening-text {
+      text-align: center;
+    }
+    @media screen and (max-width: 480px) {
+      #find {
+        position: relative;
+        top: -135px;
+        text-align: center;
+      }
+    } 
+
+    .goal {
+      background-color: #dbdbdb;
+      clear: both;
+      padding: 20px 0 10px 0;
+      text-align: center;
+      margin-bottom: 0.5em;
+    }
+
+  /*content page*/
+    ul li {
+      list-style: none;
+    }
+
+    #primary {
+      margin-left: 2em;
+    }
+/***********************
+Header
+***********************/
+  
+  header {
+    float: left;
+    margin: -2em 0 2em 0;
+    padding: -2em 0 0 0;
+    width: 100%;
+    border-bottom: 5px solid #008ba1;
+  }
+  
+  
+  #logo {
+    text-align: center;
+    margin: 0;
+  }
+
+
+/*** Nav ***/
+
+@media and screen (max-width: 4500px) {
+    nav li {
+    margin: 0;
+    padding: 0;
+    }
+  }
+
+  nav {
+    text-align: center;
+    padding: 10px;
+    margin: 20px 0 0;
+  }
+  nav ul {
+    list-style: none;
+
+    padding: 0;
+    display: inline-block;
+  }
+  
+  nav li {
+    display: inline-block;
+  }
+  
+  nav a {
+    font-weight: 800;
+    padding: 15px 10px;
+  }
+
+  .nav {
+    padding: 15px;
+  }
+    
+  /* Color */
+    nav {
+      background: #6b6b6b;
+    }
+
+    /* nav link */
+      .nav {
+        color: #fff;
+      }
+      
+    
+    /* selected nav link */
+      .selected, .nav:hover, .nav:hover {
+        background-color: #fff;
+        color: #088ba1;
+      }
+    
+     /*Secondary Nav*/
+      #dropdown {
+        background-color: #fff;
+        margin: -2em 2em 0 0;
+        padding: 0 0 0 0;
+        width: 100%;
+      }
+      
+      #dropdown a {
+        color: #6b6b6b;
+      }
+
+
+/***********************
+Links
+***********************/
+
+  a:link {
+    text-decoration: none;
+  }
+
+
+  .link {
+    color: #088ba1;
+    text-decoration: underline;
+  }
+s
+
+/***********************
+Table
+***********************/
+
+  *, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  
+  body {
+    font-family: 'Exo', sans-serif;
+  }
+  
+  table {
+    max-width: 100%;
+    margin: 10px auto;
+  }
+  
+  caption {
+    font-size: 1.6em;
+    font-weight: 400;
+    padding: 2.5px 0 2.5px 0;
+    background: #dbdbdb;
+    color: #088ba1;
+  }
+  
+  thead th {
+    color: #ff3500;
+    font-family: 'Orbitron', sans-serif;
+  }
+   
+  tr {
+    border-bottom: 1px solid #dbdbdb;
+    margin-bottom: 5px;
+    color: #088ba1;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 20px;
+    font-weight: 300;
+    
+  }
+  
+  tfoot tr {
+    background: none;
+  }
+  
+  tfoot td {
+    padding: 10px 2px;
+    font-size: 0.8em;
+    font-style: italic;
+    color: #088ba1;
+  }
+  
+  .tbodyth {
+    color: #088ba1;
+    font-family: 'Exo', sans-serif;
+    margin: 0 ;
+  }
+
+/*** Mobile Table ***/
+  @media screen and (max-width: 485px) {
+    .hidden {
+      display: none;
+    }
+    
+    tr th {
+      margin: 1em;
+    }
+  }
+  
+ @media screen and (max-width: 840px) {
+    .pic-mobile {
+      display: none;
+    }
+  
+    tr th {
+      margin: 2em;
+      padding: 5px;
+    }
+  }
+
+/***********************
+Footer
+***********************/
+
+  footer {
+    font-family: 'Exo', sans-serif;
+    font-size: 1em;
+    text-align: center;
+    clear: both;
+    padding-top: 50px;
+    width: 100%;
+    margin: 0 0 -2em 0;
+  }
+  
+  
+  #footer, .quick {
+    background-color : #6b6b6b;
+    color: #fff;
+  }
+  
+  #footer {
+    border-top: 5px solid #088ba1;;
+    padding-bottom: 0.15em;
+    margin-bottom: -1em;
+  }
+  
+  
+  .social-icon { 
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+  }
+
